@@ -1,12 +1,15 @@
+import HomePage from '@/views/HomePage.vue';
+import LayoutDefault from '@/layouts/LayoutDefault.vue';
 // 0. If using a module system (e.g. via vue-cli), import Vue and VueRouter
 // and then call `Vue.use(VueRouter)`.
 
 // 1. Define route components.
 // These can be imported from other files
-const Foo = { template: '<div>foo</div>' }
+// const Foo = { template: '<layout-default><div>foo</div></layout-default>' }
+const Foo = { template: '<div>Foo</div>' }
 const Bar = { template: '<div>bar</div>' }
 
-import HomePage from '@/views/HomePage.vue';
+
 
 // 2. Define some routes
 // Each route should map to a component. The "component" can

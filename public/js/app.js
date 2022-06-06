@@ -5527,17 +5527,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "routes": () => (/* binding */ routes)
 /* harmony export */ });
 /* harmony import */ var _views_HomePage_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/views/HomePage.vue */ "./resources/js/views/HomePage.vue");
-// 0. If using a module system (e.g. via vue-cli), import Vue and VueRouter
+/* harmony import */ var _layouts_LayoutDefault_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/layouts/LayoutDefault.vue */ "./resources/js/layouts/LayoutDefault.vue");
+
+ // 0. If using a module system (e.g. via vue-cli), import Vue and VueRouter
 // and then call `Vue.use(VueRouter)`.
 // 1. Define route components.
 // These can be imported from other files
+// const Foo = { template: '<layout-default><div>foo</div></layout-default>' }
+
 var Foo = {
-  template: '<div>foo</div>'
+  template: '<div>Foo</div>'
 };
 var Bar = {
   template: '<div>bar</div>'
-};
- // 2. Define some routes
+}; // 2. Define some routes
 // Each route should map to a component. The "component" can
 // either be an actual component constructor created via
 // `Vue.extend()`, or just a component options object.
